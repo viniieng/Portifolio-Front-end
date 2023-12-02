@@ -30,13 +30,18 @@ header > .interface {
 
 .profile-image {
   clip-path: circle(50% at 50% 50%);
-  width: 80%;
+  width: 50%;
+  cursor: auto;
 }
 .nome-vinicius {
   color: rgb(255, 255, 255);
-  padding: 40px 4%;
+  padding: 10px 4%;
   max-width: 1280px;
   width: 400px;
+}
+
+.box-shadow{
+  cursor: auto;
 }
 
 header a {
@@ -72,7 +77,8 @@ header a {
 }
 
 .logo h1 {
-  font-size: 30px;
+  font-size: 20px;
+  cursor: auto;
 }
 
 .ul li {
@@ -132,4 +138,10 @@ svg {
   left: 10%;
   margin-right: 20px;
   padding: auto; 
+}
+
+.frame-coffe {
+
+top: 10px;
+ 
 }
