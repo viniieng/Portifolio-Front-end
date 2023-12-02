@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #c6c4c4;
+  background-color: #868585;
   height: 100vh;
 }
 
@@ -20,7 +20,6 @@ body {
 header {
   padding: 40px 4%;
   background-color: #000000;
-  
 }
 
 header > .interface {
@@ -46,19 +45,18 @@ header a {
   border-bottom: 1px solid transparent;
 }
 
-.div-opcoes{
+.div-opcoes {
   display: flex;
   justify-content: space-between;
   width: 25%;
   cursor: pointer;
-
 }
-.texto-opcoes{
-color: rgb(180, 178, 178);
-border: 1px solid transparent;
+.texto-opcoes {
+  color: rgb(180, 178, 178);
+  border: 1px solid transparent;
 }
 
-.texto-opcoes:hover{
+.texto-opcoes:hover {
   color: #fff;
   border-bottom: 1px solid white;
   transition: 0.2s;
@@ -77,40 +75,34 @@ border: 1px solid transparent;
   font-size: 30px;
 }
 
-.ul li{
-  
+.ul li {
   font-size: 18px;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
-.primeiro-paragrofo{
-  text-indent: 70px;
+.primeiro-paragrofo {
+  text-indent: 50px;
 }
 
 .texto-01 {
   padding: 23px;
-
 }
 
-#texto{
+#texto {
   max-width: 40vw;
   padding: 100px;
-
 }
 
-
 #texto p {
-  font-size: 18px;
- 
-
+  font-size: 15px;
 }
 
 #texto p2 {
-  font-size: 18px;
-  font-weight: bold;  
+  font-size: 15px;
+  font-weight: bold;
 }
 
-#botao-contato{
+#botao-contato {
   padding: 10px 40px;
   font-size: 18px;
   font-weight: 800;
@@ -121,12 +113,22 @@ border: 1px solid transparent;
   border: 1px solid transparent;
 }
 
-#botao-contato:hover{
+#botao-contato:hover {
   background-color: rgb(0, 0, 0);
   transition: 0.3s;
   color: white;
   border: 1px solid white;
 }
 
-
-
+svg:hover path {
+  fill: #ffffff;
+  transition: 0.2s;
+}
+svg {
+  cursor: pointer;
+  margin: 20px auto;
+  float: right;
+  width: 4%;
+  left: 10%;
+  margin-right: 20px; 
+}
