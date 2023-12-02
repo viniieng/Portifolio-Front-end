@@ -130,5 +130,6 @@ svg {
   float: right;
   width: 4%;
   left: 10%;
-  margin-right: 20px; 
+  margin-right: 20px;
+  padding: auto; 
 }
