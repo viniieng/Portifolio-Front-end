@@ -54,7 +54,7 @@ header a {
 
 }
 .texto-opcoes{
-color: white;
+color: rgb(180, 178, 178);
 border: 1px solid transparent;
 }
 
@@ -92,6 +92,10 @@ header nav ul li {
   font-weight: bold;  
 }
 
+.primeiro-paragrofo{
+  text-indent: 70px;
+}
+
 .texto-01 {
   padding: 23px;
 
@@ -102,6 +106,7 @@ header nav ul li {
   padding: 100px;
 
 }
+
 
 #texto p {
   font-size: 18px;
