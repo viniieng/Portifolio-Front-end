@@ -99,6 +99,7 @@ header a {
   border-radius: 10px; /* Adiciona bordas arredondadas */
   overflow-wrap: break-word; /* Evita quebras de palavras */
   text-indent: 15px;
+  text-align: justify;
 }
 
 
@@ -139,6 +140,13 @@ svg:hover path {
   fill: #ffffff;
   transition: 0.2s;
 }
+
+#contatos{
+position: fixed;
+bottom: 15px;
+right: 15px;
+}
+
 svg {
   cursor: pointer;
   margin: 20px auto;
@@ -146,7 +154,7 @@ svg {
   left: 10%;
   margin-right: 20px;
   padding: auto;
-  height: 280px;
+  
 }
 
 .frame-coffe {
