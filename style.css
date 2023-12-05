@@ -173,3 +173,10 @@ svg:hover {
 display: flex;
 align-items: center;
 }
+
+.image-boy{
+  position: fixed;
+  left: 64%;
+  width: 22vw;
+  top: 21vw;
+}
