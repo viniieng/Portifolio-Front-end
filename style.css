@@ -181,37 +181,52 @@ align-items: center;
   top: 21vw;
 }
 
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+
+
+
 .image-pokebola{
   width: 8%;
   position: relative;
   bottom: 32vw;
   left: 57%;
-  transform: rotate(330deg);
+  animation: float 4s infinite;
 }
+
 .image-python{
   width: 4%;
   position: relative;
   bottom: 32vw;
   left: 80%;
-  transform: rotate(20deg);
+  animation: float 4s infinite;
 }
 .image-css{
   width: 4%;
   position: relative;
   bottom: 35vw;
-  left: 65%;
+  left: 61%;
+  animation: float 4s infinite;
 }
 .image-headset{
   width: 8%;
   position: relative;
   bottom: 20vw;
   left: 37%;
-  transform: rotate(30deg);
+  animation: float 4s infinite;
 }
 .image-controle{
   width: 8%;
   position: relative;
   bottom: 20vw;
   left: 63%;
-  transform: rotate(340deg);
+  animation: float 4s infinite;
 }
