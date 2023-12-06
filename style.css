@@ -180,3 +180,38 @@ align-items: center;
   width: 22vw;
   top: 21vw;
 }
+
+.image-pokebola{
+  width: 8%;
+  position: relative;
+  bottom: 32vw;
+  left: 57%;
+  transform: rotate(330deg);
+}
+.image-python{
+  width: 4%;
+  position: relative;
+  bottom: 32vw;
+  left: 80%;
+  transform: rotate(20deg);
+}
+.image-css{
+  width: 4%;
+  position: relative;
+  bottom: 35vw;
+  left: 65%;
+}
+.image-headset{
+  width: 8%;
+  position: relative;
+  bottom: 20vw;
+  left: 37%;
+  transform: rotate(30deg);
+}
+.image-controle{
+  width: 8%;
+  position: relative;
+  bottom: 20vw;
+  left: 63%;
+  transform: rotate(340deg);
+}
