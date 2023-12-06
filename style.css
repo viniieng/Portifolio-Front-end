@@ -93,7 +93,7 @@ header a {
 }
 
 #texto {
-  max-width: 48vw;
+  max-width: 55vw;
   padding: 20px; 
   text-align: left; 
   border-radius: 10px;  
@@ -175,10 +175,11 @@ align-items: center;
 }
 
 .image-boy{
-  position: fixed;
-  left: 64%;
+  position: relative;
+  left: 67%;
   width: 22vw;
-  top: 21vw;
+margin-top:-1500vw;
+bottom: 80px;
 }
 
 
@@ -198,35 +199,39 @@ align-items: center;
   width: 8%;
   position: relative;
   bottom: 32vw;
-  left: 57%;
-  animation: float 4s infinite;
+  left: 60%;
+  transform: rotate(330deg);
 }
 
 .image-python{
   width: 4%;
   position: relative;
   bottom: 32vw;
-  left: 80%;
-  animation: float 4s infinite;
+  left: 82%;
+  transform: rotate(330deg);
 }
 .image-css{
   width: 4%;
   position: relative;
   bottom: 35vw;
-  left: 61%;
-  animation: float 4s infinite;
+  left: 64%;
+  transform: rotate(20deg);
 }
 .image-headset{
   width: 8%;
   position: relative;
   bottom: 20vw;
-  left: 37%;
-  animation: float 4s infinite;
+  left: 42%;
+  transform: rotate(30deg);
 }
 .image-controle{
   width: 8%;
   position: relative;
   bottom: 20vw;
-  left: 63%;
+  left: 65%;
+  transform: rotate(10deg);
+}
+
+.teste-imagem{
   animation: float 4s infinite;
 }
